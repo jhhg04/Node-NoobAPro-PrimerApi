@@ -1,0 +1,26 @@
+⚙️Cómo crear una {API} con Node js (Back-end) y React Js (Front-end) 🚀
+min 40:00
+
+- init
+npm init -y
+
+- Install
+npm i express body-parser mongoose nodemon
+
+- Use import express from 'express' en lugar de const express= require('express') in package.json
+  "license": "ISC",
+  "type":"module",
+
+- Script
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+
+- Express Server
+    app.listen(port, ()=>{clg('Server on')}) // Escucha peticiones
+    app.get('/', (req, res)=>{res.send('Hi')}) // HomePage del puerto escojido
+    app.post('/api/clients', (req, res)=>{clg('Endpoint') res.send('Something'}) // Endpoint Ruta dentro del port
+    app.use(express.json()) res.send('Something'}) // Middleware, bloque de cod entre req y res
+
+- Run
+npm start
