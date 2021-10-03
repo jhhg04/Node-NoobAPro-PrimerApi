@@ -1,17 +1,17 @@
 [
   {
-    "firstname": "John",
+    "firstName": "John",
     "phone": 3001114567,
     "address": "calle 123"
   },
   {
-    "firstname": "Harold",
+    "firstName": "Harold",
     "phone": 30022245678,
-    "address": "calle 123"
+    "address": "carrera 456"
   },
   {
-    "firstname": "Edwin",
+    "firstName": "Edwin",
     "phone": 30033356789,
-    "address": "calle 123"
+    "address": "diagonal 789"
   }
 ]
