@@ -5,8 +5,7 @@ import store from '../api/models/store.js';
 
 const app = express();
 const port = 5000;
-const mongoURL =
-  'mongodb+srv://john:asdf1234@cluster0.e7wfo.mongodb.net/clientes?retryWrites=true&w=majority';
+const mongoURL = '';
 
 app.use(bodyParser.json());
 
